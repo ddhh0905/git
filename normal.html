@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <div id="container">
+        <div id="bt">
+            <button id="pyramid" onclick="myFunction()">Pyramid!</button>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   
+<p>
+    Original Pyramid
+</p>
+    <script>
+        function myFunction(){
+        var output = "";
+       
+
+        for (var i=0; i<10 ;i++ )
+        {
+            for (var j = 10;j>i ;j-- )
+            {
+                output += ' ';
+            }
+            
+            for (var j=0;j<2*i-1 ;j++ )
+            {
+                output += "*";
+            }
+            output += "\n";
+        }
+    
+        alert(output);
+    }
+    </script>
+
+    <style>
+        p{
+            padding-left: 126px;
+        }
+    #pyramid {
+        display: block;
+  margin: 30px auto;
+  background: #AD133A;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+  position: relative;
+  top : 100px;
+  
+    }
+    body {
+   font-family: Roboto;
+   background-color: coral;
+    }
+    #container
+    {
+        height: 525px;
+  width: 360px;
+  margin: 100px auto;
+  background: #f7f7f7;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  
+    }
+    </style>
+</body>
+</div>
+
+</div>
+</html>
