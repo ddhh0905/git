@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var output = "";
+
+        for (var i=0; i<10 ;i++ )
+        {
+            for (var j = 10;j>i ;j-- )
+            {
+                output += ' ';
+            }
+//i=높이;j=넓이//
+            for (var j=0;j<2*i-1 ;j++ )
+            {
+                output += "*";
+            }
+            output += "\n";
+        }
+
+        alert(output);
+    </script>
+    <a href="index.html" class="home">Home</a>  
+</body>
+</html>

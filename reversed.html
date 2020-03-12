@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+      var line = prompt('How many lines?')
+    </script>
+  </head>
+  <body>
+    <script type="text/javascript">
+
+      var output = "";
+
+      for (var i=line; i>0 ;i-- )
+       {
+        for (var j = line - i ;j>0 ;j-- )
+       {
+         output += ' ';
+         }
+
+       for (var k=i*2-1 ;k >0 ;k-- )
+       {output += "*";}
+
+         output += "\n";
+       }
+
+       alert(output);
+    </script>
+        <a href="index.html" class="home">Home</a>  
+
+  </body>
+</html>

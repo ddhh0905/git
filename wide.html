@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Document</title>
+    <script type="text/javascript">
+      var lines = prompt("how many lines do you want?")
+    </script>
+    <style>
+      *{
+        padding:0;
+        margin:0;
+      }
+
+      p{
+        font-size: 3em;
+        font-style: normal;
+        font-family: impact;
+        color:white;
+        margin-left:480px;
+        padding-top:300px;
+        text-transform: uppercase;
+      }
+      #tri{
+        height:800px;
+        width:1450px;
+        background-image: linear-gradient(#e66465, #9198e5);
+      }
+
+    </style>
+  </head>
+  <body>
+    <script>
+
+    var output = "";
+
+    for (var i=0; i<=lines ;i++ )
+    {
+        for (var j = lines;j>i ;j-- )
+        {
+            output += '       ';
+        }
+
+        for (var j=0;j<2*i-1 ;j++ )
+        {
+            output += "   *   ";
+        }
+        output += "\n";
+    }
+
+    alert(output);
+  </script>
+    <div id="tri">
+      <p>Here's Your Wide Triangle!</p>
+      <a href="index.html" class="home">Home</a>  
+
+  </div>
+  </body>
+</html>
