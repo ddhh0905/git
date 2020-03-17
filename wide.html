@@ -26,7 +26,31 @@
         width:1450px;
         background-image: linear-gradient(#e66465, #9198e5);
       }
-
+      #home{
+        position: absolute;
+        left:48%;
+        top:60%;
+        border: solid 2px grey;
+        text-decoration: none;
+        background-color: grey;
+        width: 67px;
+        height: 25px;
+        padding-left: 28px;
+        padding-top: 5px;
+        border-radius: 7px;
+        color: white;
+        font-family: sans-serif;
+        transition-duration: 0.8s;
+        transition-property: all;
+        text-decoration: none;
+        font-size:13px;
+      }
+      #home:hover{
+        transform: scale(1.2);
+        background-color: white;
+        color: grey;
+        border: solid 2px white;
+      }
     </style>
   </head>
   <body>
@@ -52,7 +76,7 @@
   </script>
     <div id="tri">
       <p>Here's Your Wide Triangle!</p>
-      <a href="index.html" class="home">Home</a>  
+      <a href="index.html" id="home">Home</a>
 
   </div>
   </body>
